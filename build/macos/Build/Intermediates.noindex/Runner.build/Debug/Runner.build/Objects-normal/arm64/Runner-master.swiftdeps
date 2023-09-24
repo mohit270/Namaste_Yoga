@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "92350534eecada246f81775c4c0b5dc06ac5b47f0ff54db0bd70c140e8c3fc3e"
+build_start_time: [1695059647, 68641000]
+build_end_time: [1695059655, 826098000]
+inputs:
+  "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/yoga_app/macos/Flutter/GeneratedPluginRegistrant.swift": [1695059633, 351485886]
+  "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/yoga_app/macos/Runner/AppDelegate.swift": [1675912470, 0]
+  "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/yoga_app/macos/Runner/MainFlutterWindow.swift": [1693921184, 407386034]
