@@ -1,0 +1,12 @@
+com.example.fluttershare.flutter_share-jetified-window-1.0.0-beta04-0 /Users/ezybuysellstore/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/res
+com.example.fluttershare.flutter_share-jetified-annotation-experimental-1.1.0-1 /Users/ezybuysellstore/.gradle/caches/transforms-3/6c0c163cc77ae6c91f9f7dfcd179c29c/transformed/jetified-annotation-experimental-1.1.0/res
+com.example.fluttershare.flutter_share-core-1.6.0-2 /Users/ezybuysellstore/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/res
+com.example.fluttershare.flutter_share-jetified-window-java-1.0.0-beta04-3 /Users/ezybuysellstore/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/res
+com.example.fluttershare.flutter_share-main-4 /Users/ezybuysellstore/.pub-cache/hosted/pub.dev/flutter_share-2.0.0/android/src/main/res
+com.example.fluttershare.flutter_share-release-5 /Users/ezybuysellstore/.pub-cache/hosted/pub.dev/flutter_share-2.0.0/android/src/release/res
+com.example.fluttershare.flutter_share-pngs-6 /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/flutter_share/generated/res/pngs/release
+com.example.fluttershare.flutter_share-resValues-7 /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/flutter_share/generated/res/resValues/release
+com.example.fluttershare.flutter_share-rs-8 /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/flutter_share/generated/res/rs/release
+com.example.fluttershare.flutter_share-mergeReleaseResources-9 /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/flutter_share/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.example.fluttershare.flutter_share-mergeReleaseResources-10 /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/flutter_share/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.example.fluttershare.flutter_share-merged_res-11 /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/flutter_share/intermediates/merged_res/release
