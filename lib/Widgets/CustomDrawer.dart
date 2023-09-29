@@ -11,7 +11,7 @@ class CustomDrawer extends StatelessWidget {
     await FlutterShare.share(
         title: 'Hey I am using Yoga For Beginners App',
         text:
-            'Hey I am using Yoga For Beginners App. It has best yoga workout for all age groups. You should try it once.',
+            'Hey I am using Namaste Yoga App. It has best yoga workout for all age groups. You should try it once.',
         linkUrl: 'https://flutter.dev/',
         chooserTitle: 'Example Chooser Title');
   }
@@ -95,35 +95,6 @@ class CustomDrawer extends StatelessWidget {
               size: 25,
             ),
             onTap: shareApp,
-          ),
-          ListTile(
-            title: const Text(
-              "Rate Us",
-              style: TextStyle(fontSize: 18),
-            ),
-            leading: const Icon(
-              Icons.star,
-              size: 25,
-            ),
-            onTap: () async {
-              await launchUrl(Uri.parse(
-                  "https://play.google.com/store/apps/details?id=com.dhruv.aiem"));
-            },
-          ),
-          ListTile(
-            title: const Text(
-              "Privacy Policy",
-              style: TextStyle(fontSize: 18),
-            ),
-            leading: const Icon(
-              Icons.security,
-              size: 25,
-            ),
-            onTap: () async {
-              // https://sites.google.com/view/yogaforbeginners-indianyoga/privacy-policy
-              await launchUrl(Uri.parse(
-                  "https://sites.google.com/view/yogaforbeginners-indianyoga/privacy-policy"));
-            },
           ),
           const Divider(
             thickness: 2,
