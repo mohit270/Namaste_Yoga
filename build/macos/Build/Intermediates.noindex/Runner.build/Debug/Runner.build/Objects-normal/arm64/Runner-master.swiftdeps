@@ -1,9 +1,9 @@
 version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
 options: "1f627d283974c47523f61d8d90b7a094ed376572279304cca043531e2ab1ab63"
-build_start_time: [1695934637, 563445000]
-build_end_time: [1695934644, 846425000]
+build_start_time: [1695980791, 401010000]
+build_end_time: [1695980801, 341587000]
 inputs:
   ? "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/macos/Flutter/GeneratedPluginRegistrant.swift"
-  : [1695934600, 835003860]
+  : [1695980770, 930468065]
   "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/macos/Runner/AppDelegate.swift": [1695933710, 302647233]
   "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/macos/Runner/MainFlutterWindow.swift": [1695933710, 307057738]

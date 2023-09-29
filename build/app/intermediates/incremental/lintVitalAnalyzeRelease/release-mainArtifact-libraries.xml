@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-      jars="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/app/intermediates/flutter/release/libs.jar"
-      resolved="__local_aars__:/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
+      name="__local_aars__:/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+      jars="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/app/intermediates/flutter/release/libs.jar"
+      resolved="__local_aars__:/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
   <library
-      name="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/android@@:shared_preferences_android::release"
-      jars="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/shared_preferences_android/.transforms/5e286cb4f1b503575f0bf4cfedfc253c/transformed/out/jars/classes.jar:/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/shared_preferences_android/.transforms/5e286cb4f1b503575f0bf4cfedfc253c/transformed/out/jars/libs/R.jar"
+      name="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/android@@:shared_preferences_android::release"
+      jars="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/shared_preferences_android/.transforms/3cb6e44d9fd699d6a1f266daf8bdcfac/transformed/out/jars/classes.jar:/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/shared_preferences_android/.transforms/3cb6e44d9fd699d6a1f266daf8bdcfac/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.sharedpreferences:shared_preferences_android:unspecified"
-      folder="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/shared_preferences_android/.transforms/5e286cb4f1b503575f0bf4cfedfc253c/transformed/out"
+      folder="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/shared_preferences_android/.transforms/3cb6e44d9fd699d6a1f266daf8bdcfac/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -17,10 +17,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/android@@:sqflite::release"
-      jars="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/sqflite/.transforms/4783566444ae7ed9b98683dece55f193/transformed/out/jars/classes.jar:/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/sqflite/.transforms/4783566444ae7ed9b98683dece55f193/transformed/out/jars/libs/R.jar"
+      name="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/android@@:sqflite::release"
+      jars="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/sqflite/.transforms/f09de3486313d2bfba43a78492e247a5/transformed/out/jars/classes.jar:/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/sqflite/.transforms/f09de3486313d2bfba43a78492e247a5/transformed/out/jars/libs/R.jar"
       resolved="com.tekartik.sqflite:sqflite:unspecified"
-      folder="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/sqflite/.transforms/4783566444ae7ed9b98683dece55f193/transformed/out"
+      folder="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/sqflite/.transforms/f09de3486313d2bfba43a78492e247a5/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -30,10 +30,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/android@@:flutter_share::release"
-      jars="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/flutter_share/.transforms/8aa10876543e954f4d8bc0546c3a7e20/transformed/out/jars/classes.jar:/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/flutter_share/.transforms/8aa10876543e954f4d8bc0546c3a7e20/transformed/out/jars/libs/R.jar"
+      name="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/android@@:flutter_share::release"
+      jars="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/flutter_share/.transforms/225bf82414bfe6c859f31c9253594238/transformed/out/jars/classes.jar:/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/flutter_share/.transforms/225bf82414bfe6c859f31c9253594238/transformed/out/jars/libs/R.jar"
       resolved="com.example.fluttershare:flutter_share:unspecified"
-      folder="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/flutter_share/.transforms/8aa10876543e954f4d8bc0546c3a7e20/transformed/out"
+      folder="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/flutter_share/.transforms/225bf82414bfe6c859f31c9253594238/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -43,10 +43,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/android@@:url_launcher_android::release"
-      jars="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/url_launcher_android/.transforms/9fde4bf73019f3bd7da88a3b20ac72ad/transformed/out/jars/classes.jar:/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/url_launcher_android/.transforms/9fde4bf73019f3bd7da88a3b20ac72ad/transformed/out/jars/libs/R.jar"
+      name="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/android@@:url_launcher_android::release"
+      jars="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/url_launcher_android/.transforms/84cb1f0314a5dd7c5c88652078bc82fd/transformed/out/jars/classes.jar:/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/url_launcher_android/.transforms/84cb1f0314a5dd7c5c88652078bc82fd/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.urllauncher:url_launcher_android:unspecified"
-      folder="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/build/url_launcher_android/.transforms/9fde4bf73019f3bd7da88a3b20ac72ad/transformed/out"
+      folder="/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/url_launcher_android/.transforms/84cb1f0314a5dd7c5c88652078bc82fd/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

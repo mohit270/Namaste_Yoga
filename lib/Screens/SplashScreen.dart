@@ -432,15 +432,6 @@ class _SplashScreenState extends State<SplashScreen> {
         makeYogaEntry(
           const Yoga(
               Seconds: true,
-              YogaImgUrl: "assets/05_twisted/201506-yjmag-seated-cat-cow.gif",
-              YogaTitle: "Seated Cat-Cow Pose",
-              SecondsOrTimes: '30',
-              YogaKey_WorkOuts: 4),
-          YogaModel.YogaTable4,
-        );
-        makeYogaEntry(
-          const Yoga(
-              Seconds: true,
               YogaImgUrl:
                   "assets/05_twisted/downward-facing-dog-pose-variation.gif",
               YogaTitle: "Downword Facing Dog Pose",

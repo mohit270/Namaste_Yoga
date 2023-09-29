@@ -42,7 +42,24 @@
                     }
                 },
                 {
-                    "source": "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/ezybuysellstore/.gradle/caches/transforms-3/9a249567dcb8025899915ed9a2426636/transformed/lifecycle-runtime-2.3.1/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
+                    },
+                    "to": {
+                        "startLines": "99",
+                        "startColumns": "4",
+                        "startOffsets": "5844",
+                        "endColumns": "42",
+                        "endOffsets": "5882"
+                    }
+                },
+                {
+                    "source": "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -58,23 +75,6 @@
                         "endLines": "116,119",
                         "endColumns": "12,12",
                         "endOffsets": "6998,7167"
-                    }
-                },
-                {
-                    "source": "/Users/ezybuysellstore/.gradle/caches/transforms-3/9a249567dcb8025899915ed9a2426636/transformed/lifecycle-runtime-2.3.1/res/values/values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "42",
-                        "endOffsets": "93"
-                    },
-                    "to": {
-                        "startLines": "99",
-                        "startColumns": "4",
-                        "startOffsets": "5844",
-                        "endColumns": "42",
-                        "endOffsets": "5882"
                     }
                 },
                 {

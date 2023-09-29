@@ -11,20 +11,17 @@ class Finish extends StatelessWidget {
     return ChangeNotifierProvider<UpdateFitnessModel>(
       create: (context) => UpdateFitnessModel(),
       child: Scaffold(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.grey.shade100,
         body: Column(
           children: [
             Container(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Image.network(
-                    "https://media.istockphoto.com/vectors/first-prize-gold-trophy-iconprize-gold-trophy-winner-first-prize-vector-id1183252990?k=20&m=1183252990&s=612x612&w=0&h=BNbDi4XxEy8rYBRhxDl3c_bFyALnUUcsKDEB5EfW2TY=",
-                    width: 350,
-                    height: 350,
-                  )
-                ],
-              ),
+              height: 350,
+              width: 350,
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                      image: AssetImage(
+                "assets/logo/trophy.gif",
+              ))),
             ),
             Container(
               margin: const EdgeInsets.symmetric(vertical: 13, horizontal: 50),
@@ -101,11 +98,11 @@ class Finish extends StatelessWidget {
             const SizedBox(
               height: 30,
             ),
-            Container(
-              width: MediaQuery.of(context).size.width,
-              height: 200,
-              color: Colors.grey,
-            ),
+            // Container(
+            //   width: MediaQuery.of(context).size.width,
+            //   height: 200,
+            //   color: Colors.grey,
+            // ),
             Consumer<UpdateFitnessModel>(
               builder: (context, myModel, child) {
                 return Container();

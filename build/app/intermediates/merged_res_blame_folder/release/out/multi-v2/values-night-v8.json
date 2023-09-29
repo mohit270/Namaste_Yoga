@@ -4,7 +4,7 @@
             "outputFile": "com.example.namaste_yoga.app-mergeReleaseResources-11:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
