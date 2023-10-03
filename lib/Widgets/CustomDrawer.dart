@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_share/flutter_share.dart';
 import 'package:namaste_yoga/Screens/SplashScreen.dart';
@@ -5,7 +6,7 @@ import 'package:namaste_yoga/services/localdb.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class CustomDrawer extends StatelessWidget {
-  const CustomDrawer({Key? key}) : super(key: key);
+  CustomDrawer({Key? key}) : super(key: key);
 
   Future<void> shareApp() async {
     await FlutterShare.share(
@@ -15,6 +16,12 @@ class CustomDrawer extends StatelessWidget {
         linkUrl: 'https://flutter.dev/',
         chooserTitle: 'Example Chooser Title');
   }
+
+  void signOut() async {
+    await FirebaseAuth.instance.signOut();
+  }
+
+  final User? user = FirebaseAuth.instance.currentUser;
 
   @override
   Widget build(BuildContext context) {
@@ -27,6 +34,17 @@ class CustomDrawer extends StatelessWidget {
                 image: DecorationImage(
                     fit: BoxFit.cover,
                     image: AssetImage("assets/logo/sidedraver.jpeg"))),
+          ),
+          ListTile(
+            title: Text(
+              user!.email.toString(),
+              style: TextStyle(fontSize: 18),
+            ),
+            leading: const Icon(
+              Icons.share,
+              size: 25,
+            ),
+            onTap: () {},
           ),
           ListTile(
             title: const Text(
@@ -95,6 +113,17 @@ class CustomDrawer extends StatelessWidget {
               size: 25,
             ),
             onTap: shareApp,
+          ),
+          ListTile(
+            title: const Text(
+              "Sign out",
+              style: TextStyle(fontSize: 18),
+            ),
+            leading: const Icon(
+              Icons.share,
+              size: 25,
+            ),
+            onTap: signOut,
           ),
           const Divider(
             thickness: 2,

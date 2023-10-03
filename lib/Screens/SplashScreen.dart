@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:namaste_yoga/Screens/Home.dart';
+import 'package:namaste_yoga/auth/auth_page.dart';
 import 'package:namaste_yoga/model/model.dart';
 import 'package:namaste_yoga/services/localdb.dart';
 import 'package:namaste_yoga/services/yogadb.dart';
@@ -915,7 +916,7 @@ class _SplashScreenState extends State<SplashScreen> {
     checkUp();
     Future.delayed(const Duration(seconds: 3), () {
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => const Home()));
+          context, MaterialPageRoute(builder: (context) => const AuthPage()));
     });
     //CHECK INSTALLATION,INSERT,READ,UPDATE,OPERATION STATUS
   }

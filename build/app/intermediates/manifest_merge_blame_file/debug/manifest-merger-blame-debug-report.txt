@@ -16,78 +16,288 @@
 15-->/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/android/app/src/debug/AndroidManifest.xml:6:5-66
 15-->/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/android/app/src/debug/AndroidManifest.xml:6:22-64
 16
-17    <permission
-17-->[androidx.core:core:1.10.1] /Users/ezybuysellstore/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
-18        android:name="com.example.namaste_yoga.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-18-->[androidx.core:core:1.10.1] /Users/ezybuysellstore/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
-19        android:protectionLevel="signature" />
-19-->[androidx.core:core:1.10.1] /Users/ezybuysellstore/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+17    <queries>
+17-->[:upi_india] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/upi_india/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:15
+18        <intent>
+18-->[:upi_india] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/upi_india/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:18
+19            <action android:name="android.intent.action.VIEW" />
+19-->[:upi_india] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/upi_india/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-65
+19-->[:upi_india] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/upi_india/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-62
 20
-21    <uses-permission android:name="com.example.namaste_yoga.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-21-->[androidx.core:core:1.10.1] /Users/ezybuysellstore/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
-21-->[androidx.core:core:1.10.1] /Users/ezybuysellstore/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
-22
-23    <application
-24        android:name="android.app.Application"
-25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-25-->[androidx.core:core:1.10.1] /Users/ezybuysellstore/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
-26        android:debuggable="true"
-27        android:icon="@mipmap/ic_launcher"
-28        android:label="Namaste Yoga" >
-29        <activity
-30            android:name="com.example.namaste_yoga.MainActivity"
-31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-32            android:exported="true"
-33            android:hardwareAccelerated="true"
-34            android:launchMode="singleTop"
-35            android:theme="@style/LaunchTheme"
-36            android:windowSoftInputMode="adjustResize" >
-37
-38            <!--
-39                 Specifies an Android theme to apply to this Activity as soon as
-40                 the Android process has started. This theme is visible to the user
-41                 while the Flutter UI initializes. After that, this theme continues
-42                 to determine the Window background behind the Flutter UI.
-43            -->
-44            <meta-data
-45                android:name="io.flutter.embedding.android.NormalTheme"
-46                android:resource="@style/NormalTheme" />
-47
-48            <intent-filter>
-49                <action android:name="android.intent.action.MAIN" />
-50
-51                <category android:name="android.intent.category.LAUNCHER" />
-52            </intent-filter>
-53        </activity>
-54        <!--
-55             Don't delete the meta-data below.
-56             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-57        -->
-58        <meta-data
-59            android:name="flutterEmbedding"
-60            android:value="2" />
-61
-62        <activity
-62-->[:url_launcher_android] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
-63            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-63-->[:url_launcher_android] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
-64            android:exported="false"
-64-->[:url_launcher_android] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
-65            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-65-->[:url_launcher_android] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
-66
-67        <uses-library
-67-->[androidx.window:window:1.0.0-beta04] /Users/ezybuysellstore/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-68            android:name="androidx.window.extensions"
-68-->[androidx.window:window:1.0.0-beta04] /Users/ezybuysellstore/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-69            android:required="false" />
-69-->[androidx.window:window:1.0.0-beta04] /Users/ezybuysellstore/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
-70        <uses-library
-70-->[androidx.window:window:1.0.0-beta04] /Users/ezybuysellstore/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-71            android:name="androidx.window.sidecar"
-71-->[androidx.window:window:1.0.0-beta04] /Users/ezybuysellstore/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-72            android:required="false" />
-72-->[androidx.window:window:1.0.0-beta04] /Users/ezybuysellstore/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-73    </application>
-74
-75</manifest>
+21            <data android:scheme="upi" />
+21-->[:upi_india] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/upi_india/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-42
+21-->[:upi_india] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/upi_india/intermediates/merged_manifest/debug/AndroidManifest.xml:13:19-39
+22        </intent>
+23    </queries>
+24    <queries>
+24-->[:upi_india] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/upi_india/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:15
+25        <package android:name="com.lcode.allahabadupi" />
+26        <package android:name="in.amazon.mShop.android.shopping" />
+27        <package android:name="com.upi.axispay" />
+28        <package android:name="com.bankofbaroda.upi" />
+29        <package android:name="in.org.npci.upiapp" />
+30        <package android:name="com.infra.boiupi" />
+31        <package android:name="com.infrasofttech.centralbankupi" />
+32        <package android:name="in.cointab.app" />
+33        <package android:name="com.lcode.corpupi" />
+34        <package android:name="com.lcode.csbupi" />
+35        <package android:name="com.cub.wallet.gui" />
+36        <package android:name="com.dbs.in.digitalbank" />
+37        <package android:name="com.olive.dcb.upi" />
+38        <package android:name="com.equitasbank.upi" />
+39        <package android:name="com.finopaytech.bpayfino" />
+40        <package android:name="com.freecharge.android" />
+41        <package android:name="com.google.android.apps.nbu.paisa.user" />
+42        <package android:name="com.mgs.hsbcupi" />
+43        <package android:name="com.csam.icici.bank.imobile" />
+44        <package android:name="com.mgs.induspsp" />
+45        <package android:name="com.lcode.smartz" />
+46        <package android:name="com.khaalijeb.inkdrops" />
+47        <package android:name="com.msf.kbank.mobile" />
+48        <package android:name="com.infrasofttech.mahaupi" />
+49        <package android:name="com.mipay.in.wallet" />
+50        <package android:name="com.mipay.wallet.in" />
+51        <package android:name="com.mobikwik_new" />
+52        <package android:name="com.mgs.obcbank" />
+53        <package android:name="net.one97.paytm" />
+54        <package android:name="com.idbibank.paywiz" />
+55        <package android:name="com.enstage.wibmo.hdfc" />
+56        <package android:name="com.phonepe.app" />
+57        <package android:name="com.fss.pnbpsp" />
+58        <package android:name="com.mobileware.upipsb" />
+59        <package android:name="com.rblbank.upi" />
+60        <package android:name="com.realmepay.payments" />
+61        <package android:name="com.sbi.upi" />
+62        <package android:name="com.truecaller" />
+63        <package android:name="com.fss.unbipsp" />
+64        <package android:name="com.fss.vijayapsp" />
+65        <package android:name="com.YesBank" />
+66    </queries>
+67
+68    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+68-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:26:5-79
+68-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:26:22-76
+69
+70    <permission
+70-->[androidx.core:core:1.10.1] /Users/ezybuysellstore/.gradle/caches/transforms-3/17c44a9ee9728471e88635da67cac57c/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+71        android:name="com.example.namaste_yoga.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+71-->[androidx.core:core:1.10.1] /Users/ezybuysellstore/.gradle/caches/transforms-3/17c44a9ee9728471e88635da67cac57c/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+72        android:protectionLevel="signature" />
+72-->[androidx.core:core:1.10.1] /Users/ezybuysellstore/.gradle/caches/transforms-3/17c44a9ee9728471e88635da67cac57c/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+73
+74    <uses-permission android:name="com.example.namaste_yoga.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+74-->[androidx.core:core:1.10.1] /Users/ezybuysellstore/.gradle/caches/transforms-3/17c44a9ee9728471e88635da67cac57c/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+74-->[androidx.core:core:1.10.1] /Users/ezybuysellstore/.gradle/caches/transforms-3/17c44a9ee9728471e88635da67cac57c/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+75
+76    <application
+77        android:name="android.app.Application"
+78        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+78-->[androidx.core:core:1.10.1] /Users/ezybuysellstore/.gradle/caches/transforms-3/17c44a9ee9728471e88635da67cac57c/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+79        android:debuggable="true"
+80        android:icon="@mipmap/ic_launcher"
+81        android:label="Namaste Yoga" >
+82        <activity
+83            android:name="com.example.namaste_yoga.MainActivity"
+84            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+85            android:exported="true"
+86            android:hardwareAccelerated="true"
+87            android:launchMode="singleTop"
+88            android:theme="@style/LaunchTheme"
+89            android:windowSoftInputMode="adjustResize" >
+90
+91            <!--
+92                 Specifies an Android theme to apply to this Activity as soon as
+93                 the Android process has started. This theme is visible to the user
+94                 while the Flutter UI initializes. After that, this theme continues
+95                 to determine the Window background behind the Flutter UI.
+96            -->
+97            <meta-data
+98                android:name="io.flutter.embedding.android.NormalTheme"
+99                android:resource="@style/NormalTheme" />
+100
+101            <intent-filter>
+102                <action android:name="android.intent.action.MAIN" />
+103
+104                <category android:name="android.intent.category.LAUNCHER" />
+105            </intent-filter>
+106        </activity>
+107        <!--
+108             Don't delete the meta-data below.
+109             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+110        -->
+111        <meta-data
+112            android:name="flutterEmbedding"
+113            android:value="2" />
+114
+115        <service
+115-->[:firebase_auth] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+116            android:name="com.google.firebase.components.ComponentDiscoveryService"
+116-->[:firebase_auth] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+117            android:directBootAware="true"
+117-->[com.google.firebase:firebase-common:20.3.3] /Users/ezybuysellstore/.gradle/caches/transforms-3/97ba536cb97715cf3a6afeff735547bd/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+118            android:exported="false" >
+118-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:68:13-37
+119            <meta-data
+119-->[:firebase_auth] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+120                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+120-->[:firebase_auth] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[:firebase_auth] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+122            <meta-data
+122-->[:firebase_core] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+123                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+123-->[:firebase_core] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[:firebase_core] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:69:13-71:85
+126                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+126-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:70:17-109
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:71:17-82
+128        </service>
+129
+130        <activity
+130-->[:url_launcher_android] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+131            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+131-->[:url_launcher_android] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+132            android:exported="false"
+132-->[:url_launcher_android] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+133            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+133-->[:url_launcher_android] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+134        <activity
+134-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:29:9-46:20
+135            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+135-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:30:13-80
+136            android:excludeFromRecents="true"
+136-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:31:13-46
+137            android:exported="true"
+137-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:32:13-36
+138            android:launchMode="singleTask"
+138-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:33:13-44
+139            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+139-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:34:13-72
+140            <intent-filter>
+140-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:35:13-45:29
+141                <action android:name="android.intent.action.VIEW" />
+141-->[:upi_india] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/upi_india/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-65
+141-->[:upi_india] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/upi_india/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-62
+142
+143                <category android:name="android.intent.category.DEFAULT" />
+143-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:38:17-76
+143-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:38:27-73
+144                <category android:name="android.intent.category.BROWSABLE" />
+144-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:39:17-78
+144-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:39:27-75
+145
+146                <data
+146-->[:upi_india] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/upi_india/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-42
+147                    android:host="firebase.auth"
+148                    android:path="/"
+149                    android:scheme="genericidp" />
+149-->[:upi_india] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/upi_india/intermediates/merged_manifest/debug/AndroidManifest.xml:13:19-39
+150            </intent-filter>
+151        </activity>
+152        <activity
+152-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:47:9-64:20
+153            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+153-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:48:13-79
+154            android:excludeFromRecents="true"
+154-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:49:13-46
+155            android:exported="true"
+155-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:50:13-36
+156            android:launchMode="singleTask"
+156-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:51:13-44
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+157-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:52:13-72
+158            <intent-filter>
+158-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:53:13-63:29
+159                <action android:name="android.intent.action.VIEW" />
+159-->[:upi_india] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/upi_india/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-65
+159-->[:upi_india] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/upi_india/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-62
+160
+161                <category android:name="android.intent.category.DEFAULT" />
+161-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:38:17-76
+161-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:38:27-73
+162                <category android:name="android.intent.category.BROWSABLE" />
+162-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:39:17-78
+162-->[com.google.firebase:firebase-auth:22.1.2] /Users/ezybuysellstore/.gradle/caches/transforms-3/717b7f59c51433f9386e5977f6add5e1/transformed/jetified-firebase-auth-22.1.2/AndroidManifest.xml:39:27-75
+163
+164                <data
+164-->[:upi_india] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/upi_india/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-42
+165                    android:host="firebase.auth"
+166                    android:path="/"
+167                    android:scheme="recaptcha" />
+167-->[:upi_india] /Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/build/upi_india/intermediates/merged_manifest/debug/AndroidManifest.xml:13:19-39
+168            </intent-filter>
+169        </activity>
+170
+171        <uses-library
+171-->[androidx.window:window:1.0.0-beta04] /Users/ezybuysellstore/.gradle/caches/transforms-3/003a22a5515e1f77f89701a46efbc2ec/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+172            android:name="androidx.window.extensions"
+172-->[androidx.window:window:1.0.0-beta04] /Users/ezybuysellstore/.gradle/caches/transforms-3/003a22a5515e1f77f89701a46efbc2ec/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+173            android:required="false" />
+173-->[androidx.window:window:1.0.0-beta04] /Users/ezybuysellstore/.gradle/caches/transforms-3/003a22a5515e1f77f89701a46efbc2ec/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+174        <uses-library
+174-->[androidx.window:window:1.0.0-beta04] /Users/ezybuysellstore/.gradle/caches/transforms-3/003a22a5515e1f77f89701a46efbc2ec/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+175            android:name="androidx.window.sidecar"
+175-->[androidx.window:window:1.0.0-beta04] /Users/ezybuysellstore/.gradle/caches/transforms-3/003a22a5515e1f77f89701a46efbc2ec/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+176            android:required="false" />
+176-->[androidx.window:window:1.0.0-beta04] /Users/ezybuysellstore/.gradle/caches/transforms-3/003a22a5515e1f77f89701a46efbc2ec/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+177
+178        <provider
+178-->[com.google.firebase:firebase-common:20.3.3] /Users/ezybuysellstore/.gradle/caches/transforms-3/97ba536cb97715cf3a6afeff735547bd/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+179            android:name="com.google.firebase.provider.FirebaseInitProvider"
+179-->[com.google.firebase:firebase-common:20.3.3] /Users/ezybuysellstore/.gradle/caches/transforms-3/97ba536cb97715cf3a6afeff735547bd/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+180            android:authorities="com.example.namaste_yoga.firebaseinitprovider"
+180-->[com.google.firebase:firebase-common:20.3.3] /Users/ezybuysellstore/.gradle/caches/transforms-3/97ba536cb97715cf3a6afeff735547bd/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+181            android:directBootAware="true"
+181-->[com.google.firebase:firebase-common:20.3.3] /Users/ezybuysellstore/.gradle/caches/transforms-3/97ba536cb97715cf3a6afeff735547bd/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+182            android:exported="false"
+182-->[com.google.firebase:firebase-common:20.3.3] /Users/ezybuysellstore/.gradle/caches/transforms-3/97ba536cb97715cf3a6afeff735547bd/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+183            android:initOrder="100" />
+183-->[com.google.firebase:firebase-common:20.3.3] /Users/ezybuysellstore/.gradle/caches/transforms-3/97ba536cb97715cf3a6afeff735547bd/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+184
+185        <activity
+185-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ezybuysellstore/.gradle/caches/transforms-3/706825b76a3839688cde8989ecd39986/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+186            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+186-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ezybuysellstore/.gradle/caches/transforms-3/706825b76a3839688cde8989ecd39986/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+187            android:excludeFromRecents="true"
+187-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ezybuysellstore/.gradle/caches/transforms-3/706825b76a3839688cde8989ecd39986/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+188            android:exported="false"
+188-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ezybuysellstore/.gradle/caches/transforms-3/706825b76a3839688cde8989ecd39986/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+189            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+189-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ezybuysellstore/.gradle/caches/transforms-3/706825b76a3839688cde8989ecd39986/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+190        <!--
+191            Service handling Google Sign-In user revocation. For apps that do not integrate with
+192            Google Sign-In, this service will never be started.
+193        -->
+194        <service
+194-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ezybuysellstore/.gradle/caches/transforms-3/706825b76a3839688cde8989ecd39986/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+195            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+195-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ezybuysellstore/.gradle/caches/transforms-3/706825b76a3839688cde8989ecd39986/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+196            android:exported="true"
+196-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ezybuysellstore/.gradle/caches/transforms-3/706825b76a3839688cde8989ecd39986/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+197            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+197-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ezybuysellstore/.gradle/caches/transforms-3/706825b76a3839688cde8989ecd39986/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+198            android:visibleToInstantApps="true" />
+198-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ezybuysellstore/.gradle/caches/transforms-3/706825b76a3839688cde8989ecd39986/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+199
+200        <activity
+200-->[com.google.android.gms:play-services-base:18.0.1] /Users/ezybuysellstore/.gradle/caches/transforms-3/f253648b0be692c533908993735bbd2e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+201            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+201-->[com.google.android.gms:play-services-base:18.0.1] /Users/ezybuysellstore/.gradle/caches/transforms-3/f253648b0be692c533908993735bbd2e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+202            android:exported="false"
+202-->[com.google.android.gms:play-services-base:18.0.1] /Users/ezybuysellstore/.gradle/caches/transforms-3/f253648b0be692c533908993735bbd2e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+203            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+203-->[com.google.android.gms:play-services-base:18.0.1] /Users/ezybuysellstore/.gradle/caches/transforms-3/f253648b0be692c533908993735bbd2e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+204
+205        <meta-data
+205-->[com.google.android.gms:play-services-basement:18.2.0] /Users/ezybuysellstore/.gradle/caches/transforms-3/2c79f1bef2248086e00abbcc39fc0574/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+206            android:name="com.google.android.gms.version"
+206-->[com.google.android.gms:play-services-basement:18.2.0] /Users/ezybuysellstore/.gradle/caches/transforms-3/2c79f1bef2248086e00abbcc39fc0574/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+207            android:value="@integer/google_play_services_version" />
+207-->[com.google.android.gms:play-services-basement:18.2.0] /Users/ezybuysellstore/.gradle/caches/transforms-3/2c79f1bef2248086e00abbcc39fc0574/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+208    </application>
+209
+210</manifest>

@@ -77,7 +77,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
         ? const Scaffold(body: Center())
         : Scaffold(
             key: scaffoldKey,
-            drawer: const CustomDrawer(),
+            drawer: CustomDrawer(),
             backgroundColor: Colors.white,
             body: NotificationListener(
               onNotification: scrollListner,

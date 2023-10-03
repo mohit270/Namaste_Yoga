@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
-options: "f318c87ec218af6c3060c63954403b99cfb3f7bc27b4caa1cf5e1146306beba3"
-build_start_time: [1695934621, 855405000]
-build_end_time: [1695934626, 775338000]
-inputs:
-  "/Users/ezybuysellstore/.pub-cache/hosted/pub.dev/url_launcher_macos-3.0.7/macos/Classes/UrlLauncherPlugin.swift": [1695036142, 419459792]
-  "/Users/ezybuysellstore/.pub-cache/hosted/pub.dev/url_launcher_macos-3.0.7/macos/Classes/messages.g.swift": [1695036142, 418923842]

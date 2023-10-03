@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "369896733520",
+    "project_id": "namaste-yoga-ab326",
+    "storage_bucket": "namaste-yoga-ab326.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369896733520:android:bc81aab9a2ae6f42caca55",
+        "android_client_info": {
+          "package_name": "com.example.namaste_yoga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369896733520-fgj3qv85plclo6p3pkpc6bl3men2495n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.namaste_yoga",
+            "certificate_hash": "c661d56fbd8cb597a454d3729d68a16d651fa5b7"
+          }
+        },
+        {
+          "client_id": "369896733520-1k4rvfvsatb8l8mg21fea69bk0d87tmh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8QtYfh-AJg7UH0r-SigN9BwZ9JyGKYao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369896733520-1k4rvfvsatb8l8mg21fea69bk0d87tmh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "369896733520-rnj17ovv2m0mi2rth82k9vljt67sggid.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.namasteYoga"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
