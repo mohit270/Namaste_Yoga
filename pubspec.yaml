@@ -41,6 +41,10 @@ dependencies:
   intl:
   flutter_share:
   url_launcher:
+  upi_payment_qrcode_generator: ^1.4.0
+  upi_india: ^3.0.1
+  firebase_auth: ^4.10.0
+  google_sign_in: ^6.1.5
 
 dev_dependencies:
   flutter_test:

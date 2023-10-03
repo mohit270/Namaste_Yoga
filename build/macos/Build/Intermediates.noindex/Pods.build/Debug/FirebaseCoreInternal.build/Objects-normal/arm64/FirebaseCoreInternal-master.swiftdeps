@@ -1,0 +1,29 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "e1139a69faefee8a5d9e28ad9c91e873e694b85c228b7f8bd9e46e4b7701da72"
+build_start_time: [1696271719, 629028000]
+build_end_time: [1696271723, 158355000]
+inputs:
+  ? "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Heartbeat.swift"
+  : [1696271706, 755525281]
+  ? "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatController.swift"
+  : [1696271706, 756281982]
+  ? "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatLoggingTestUtils.swift"
+  : [1696271706, 756608937]
+  ? "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatStorage.swift"
+  : [1696271706, 756795560]
+  ? "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsBundle.swift"
+  : [1696271706, 757093141]
+  ? "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsPayload.swift"
+  : [1696271706, 757476929]
+  ? "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/RingBuffer.swift"
+  : [1696271706, 755884778]
+  ? "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Storage.swift"
+  : [1696271706, 755390283]
+  ? "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/StorageFactory.swift"
+  : [1696271706, 757629719]
+  ? "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/WeakContainer.swift"
+  : [1696271706, 757291306]
+  ? "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatController.swift"
+  : [1696271706, 756057734]
+  ? "/Users/ezybuysellstore/Desktop/flutter_app/flutterPractice/namaste_yoga/Namaste_Yoga/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatsPayload.swift"
+  : [1696271706, 756431231]

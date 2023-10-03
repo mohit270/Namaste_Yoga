@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "io.flutter.plugins.pay_android-mergeReleaseResources-12:/values-fil/values-fil.xml",
+            "map": [
+                {
+                    "source": "/Users/ezybuysellstore/.gradle/caches/transforms-3/c15e22c0d2c3ea07ab2190c999692130/transformed/jetified-play-services-wallet-19.1.0/res/values-fil/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "203",
+                        "endColumns": "78",
+                        "endOffsets": "281"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "82",
+                        "endOffsets": "133"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "io.flutter.plugins.pay_android-merged_res-14:/values-fil/values-fil.xml",
+            "map": [
+                {
+                    "source": "/Users/ezybuysellstore/.gradle/caches/transforms-3/c15e22c0d2c3ea07ab2190c999692130/transformed/jetified-play-services-wallet-19.1.0/res/values-fil/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "203",
+                        "endColumns": "78",
+                        "endOffsets": "281"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "82",
+                        "endOffsets": "133"
+                    }
+                }
+            ]
+        }
+    ]
+}
